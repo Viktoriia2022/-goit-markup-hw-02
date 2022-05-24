@@ -22,6 +22,54 @@
 
 
  <!-- Герой-->
+ 
+ /*hero*/
+ /* Bg */
+ 
+ 
+ /*title-hero*/
+ /* Эффективные решения для вашего бизнеса */
+ .title-hero {
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.35;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+ }
+
+
+ /*btn-hero*/
+ /* Заказать услугу */
+.btn-hero {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+        display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+ 
+/*.btn-hero {
+     display: flex;
+     align-items: center;
+     text-align: center;
+     letter-spacing: 0.06em;
+     color: #FFFFFF;
+}*/
 
 
  <!-- Приемущества-->
