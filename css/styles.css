@@ -1,13 +1,29 @@
+ .body {
+    font-family: 'Roboto', sans-serif;
+    background: #FFFFFF;
+ } 
+ 
+ 
+ 
  <!-- Шапка сайта-->
  /* WebStudio logo */
  
- /* logo {
-    position: absolute;
-        width: 145px;
-        height: 31px;
-        left: 215px;
-        top: 24px;
-    
+
+ /* Активная ссылка */
+ .item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+        
+    color: #2196F3;
+ }
+
+
+  /*.logo {
+      
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
@@ -17,7 +33,16 @@
         color: #2196F3;
  }*/
  
-
+/*.link {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+    
+        color: #2196F3;
+}*/
 
 
 
@@ -28,48 +53,23 @@
  
  
  /*title-hero*/
- /* Эффективные решения для вашего бизнеса */
- .title-hero {
-    position: absolute;
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 280px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.35;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
- }
+  Эффективные решения для вашего бизнеса 
+ /*.title-hero {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+ }/*
 
 
  /*btn-hero*/
  /* Заказать услугу */
-.btn-hero {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-        display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-}
 
- 
-/*.btn-hero {
-     display: flex;
-     align-items: center;
-     text-align: center;
-     letter-spacing: 0.06em;
-     color: #FFFFFF;
-}*/
 
 
  <!-- Приемущества-->
