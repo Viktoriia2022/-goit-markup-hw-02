@@ -1,16 +1,42 @@
- .body {
+ body {
     font-family: 'Roboto', sans-serif;
     background: #FFFFFF;
+    color: gray;
  } 
  
  
  
  <!-- Шапка сайта-->
  /* WebStudio logo */
+
+ .logo{
+    color: #2196F3;
+ }
+
+ .logo-black{
+     color: black;
+ }
  
+.list{
+    color: #212121;
+}
+.contact-list{
+    color: #757575;
+}
 
  /* Активная ссылка */
- .item {
+
+ .link-active:focus,
+ .link-active:hover{
+    color: #2196F3;
+ }
+
+.mail-link-active:focus,
+.mail-link-active:hover{
+    color: #2196F3;
+}
+
+ /*.link {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -19,7 +45,7 @@
     letter-spacing: 0.02em;
         
     color: #2196F3;
- }
+ }*/
 
 
   /*.logo {
