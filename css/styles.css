@@ -61,6 +61,7 @@
     background: #2F303A;
  }*/
 
+
  .title-hero{
     font-family: 'Roboto';
     font-style: normal;
@@ -173,5 +174,29 @@
  <!-- Футер-->
  /* .footer */
  /* .footer-logo */
- 
+
+ .location-address {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.71x;
+   letter-spacing: 0.03em;
+   
+   /*color: #FFFFFF;*/
+ }
+
+ .contact-address {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.71;
+   letter-spacing: 0.03em;
+   
+   /*color: rgba(255, 255, 255, 0.6);*/
+ }
+
+
+
 
