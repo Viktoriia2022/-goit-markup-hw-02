@@ -1,82 +1,117 @@
- body {
-    font-family: 'Roboto', sans-serif;
-    background: #FFFFFF;
-    color: #212121;
+:root {
+--logo-color-1:#2196F3;
+--logo-color-2:#000000;
+--menu-link-color:#212121;
+--menu-link-page-color:#2196F3;
+--email-nd-number-color:#757575;
+--contact-hover-and-focus-color:#2196F3;
+--hero-background-color:#2f303a;
+--title-hero-color:#FFFFFF;
+--btn-hero-color:#FFFFFF;
+--btn-hero-background-color:#2196F3;
 } 
  
- <!-- Шапка сайта-->
+body {
+   font-family: 'Roboto', sans-serif;
+} 
+ 
+/* убираем точки списков */
+.list {
+   list-style: none;
+}
+
+/* убираем подчеркивание списков */
+.link{
+   text-decoration: none;
+}
+
+
+ /* Шапка сайта */
  /* WebStudio logo */
 
- /*.logo{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    
-    letter-spacing: 0.03em;
-    color: #2196F3;
- }
+.logo {
+   font-family: 'Raleway';
+   font-style: normal;
+}
 
- .logo-black{
-     color: black;
- }*/
+.logo-left {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
+   color: var(--logo-color-1);
+}
+
+.logo-right {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
+   color: var(--logo-color-2);
+}
  
-.list{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    color: #212121;
- }
-.contact-list{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    color: #757575;
-    
- }
+.menu-link {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   color: var(--menu-link-color);
+}
 
  /* Активная ссылка */
 
- .link-active:focus,
- .link-active:hover{
-    color: #2196F3;
- }
+.menu-link:focus,
+.menu-link:hover {
+   color: var(--contact-hover-and-focus-color);
+}
 
-.mail-link-active:focus,
-.mail-link-active:hover{
-    color: #2196F3;
- }
+.current,
+.current-email-tel {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14x;
+   letter-spacing: 0.02em;
+   color: var(--menu-link-page-color);
+}
 
- <!-- Герой-->
+.email-tel {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   color: var(--email-nd-number-color);
+}
+
+.email-tel:focus,
+.email-tel:hover{
+   color: var(--contact-hover-and-focus-color);
+}
+
+
+ /*-- Герой--*/
  
- /*hero*/
- /*.hero{
-    position: absolute;
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
-    
-    background: #2F303A;
- }*/
+ .hero {
+    background-color: var(--hero-background-color);
+ }
 
 
- .title-hero{
+ .title-hero {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    
-    color: #FFFFFF;
- }
+    color: var(--title-hero-color);
+}
 
- .btn-hero{
+ .btn-hero {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -88,12 +123,20 @@
     text-align: center;
     letter-spacing: 0.06em;
     
-    color: #FFFFFF;
+    color: var(--btn-hero-color);
+    background-color: var(--btn-hero-background-color);
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    /*color: #FFFFFF;
+    background: #2196F3;*/
+
     cursor:pointer
  }
- /* Bg */
- 
- <!-- Приемущества-->
+
+
+  <!-- Приемущества-->
 
  /*benefits*/
 
