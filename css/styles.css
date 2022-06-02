@@ -1,4 +1,5 @@
 :root {
+--header-background-color:#FFFFFF;
 --logo-color-1:#2196F3;
 --logo-color-2:#000000;
 --menu-link-color:#212121;
@@ -9,6 +10,10 @@
 --title-hero-color:#FFFFFF;
 --btn-hero-color:#FFFFFF;
 --btn-hero-background-color:#2196F3;
+--title-benefits-color:#212121;
+--descr-benefits-color:#757575;
+--about-title-text-color:#212121;
+--team-background-color:#F5F4FA;
 } 
  
 body {
@@ -27,8 +32,13 @@ body {
 
 
  /* Шапка сайта */
- /* WebStudio logo */
+ /* Фон класс header */
 
+.header{
+   background-color: var(--header-background-color);
+}
+
+/* WebStudio logo */
 .logo {
    font-family: 'Raleway';
    font-style: normal;
@@ -86,23 +96,21 @@ body {
    color: var(--email-nd-number-color);
 }
 
+ /* Активная ссылка */
+
 .email-tel:focus,
 .email-tel:hover{
    color: var(--contact-hover-and-focus-color);
 }
 
-
  /*-- Герой--*/
- 
- .hero {
+/* Фон класс hero */
+.hero {
     background-color: var(--hero-background-color);
- }
+}
 
-
- .title-hero {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
+.title-hero {
+    
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
@@ -111,76 +119,59 @@ body {
     color: var(--title-hero-color);
 }
 
- .btn-hero {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    
-    color: var(--btn-hero-color);
-    background-color: var(--btn-hero-background-color);
-
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-
-    /*color: #FFFFFF;
-    background: #2196F3;*/
-
-    cursor:pointer
- }
+.btn-hero {
+   font-size: 16px;
+   line-height: 1.87;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.06em;
+   color: var(--btn-hero-color);
+   background-color: var(--btn-hero-background-color);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+   cursor: pointer;
+}
 
 
-  <!-- Приемущества-->
+  /*-- Преимущества --*/
 
  /*benefits*/
 
- .title-benefits {
-   font-family: 'Roboto';
-   font-style: normal;
-   font-weight: 700;
+.title-benefits {
    font-size: 14px;
    line-height: 1.14;
    letter-spacing: 0.03em;
    text-transform: uppercase;
-   
-   color: #212121;
- }
+   color: var(--title-benefits-color);
+}
 
- .descr-benefits {
-   font-family: 'Roboto';
-   font-style: normal;
-   font-weight: 400;
+.descr-benefits {
    font-size: 14px;
    line-height: 1.71;
    letter-spacing: 0.03em;
-   
-   color: #757575;
- }
+   color: var(--descr-benefits-color);
+}
 
  /* about */
 
- .about-title {
-   font-family: 'Roboto';
-   font-style: normal;
-   font-weight: 700;
+.about-title {
    font-size: 36px;
    line-height: 1.16;
    text-align: center;
    letter-spacing: 0.03em;
-   
-   color: #212121;
- }
+   color: var(--about-title-text-color);
+}
 
  <!-- Команда-->
 
  /*team */
- .title-team {
+
+.team {
+   background-color: var(--team-background-color);
+}
+
+.title-team {
    font-family: 'Roboto';
    font-style: normal;
    font-weight: 700;
@@ -190,7 +181,8 @@ body {
    letter-spacing: 0.03em;
    
    color: #212121;
- }
+}
+
  .worker-team {
    font-family: 'Roboto';
    font-style: normal;
