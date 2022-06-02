@@ -26,6 +26,9 @@
 --navigation-button-background-color:#F5F4FA;
 --active-navigation-button-color:#FFFFFF;
 --active-navigation-button-background-color:#2196F3;
+--navigation-project-text-color:#757575;
+--navigation-project-title-color:#212121;
+
 
 
 } 
@@ -254,7 +257,7 @@ body {
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
-   line-height: 26px;
+   line-height: 1.62;
    text-align: center;
    letter-spacing: 0.03em;
    border-radius: 4px;
@@ -268,6 +271,20 @@ body {
    background-color: var(--active-navigation-button-background-color);
 }
 
+.navigation-project-title{
+   font-size: 18px;
+   line-height: 2.0;
+   letter-spacing: 0.06em;
+   
+   color:var(--navigation-project-title-color);
+}
+
+.navigation-project-text{
+   font-size: 16px;
+   line-height: 1.66;
+   letter-spacing: 0.03em;
+   color: var(--navigation-project-text-color);
+}
 
 
 
