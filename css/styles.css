@@ -21,6 +21,13 @@
 --logo-right-footer-color:#FFFFFF;
 --location-address-color:#FFFFFF;
 --contact-address-color:rgba(255, 255, 255, 0.6);
+
+--navigation-button-color:#212121;
+--navigation-button-background-color:#F5F4FA;
+--active-navigation-button-color:#FFFFFF;
+--active-navigation-button-background-color:#2196F3;
+
+
 } 
  
 body {
@@ -238,7 +245,29 @@ body {
  }
 
  /*------------------------------------------*/
- 
+
+ /* Портфолио */
+ /* Навигация */
+
+.navigation-button {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 26px;
+   text-align: center;
+   letter-spacing: 0.03em;
+   border-radius: 4px;
+   color: var(--navigation-button-color);
+   background-color: var(--navigation-button-background-color);
+}
+
+.navigation-button:hover,
+.navigation-button:focus{
+   color: var(--active-navigation-button-color);
+   background-color: var(--active-navigation-button-background-color);
+}
+
 
 
 
